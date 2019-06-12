@@ -1,5 +1,8 @@
-﻿namespace DesignPatternsTasks.Builder.Models
+﻿using System;
+
+namespace DesignPatternsTasks.Builder.Models
 {
+    [Serializable]
     public class Department
     {
         public string Name { get; set; }

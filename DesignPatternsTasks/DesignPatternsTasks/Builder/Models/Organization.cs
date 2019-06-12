@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace DesignPatternsTasks.Builder.Models
 {
+    [Serializable]
     public class Organization
     {
         public Organization()
